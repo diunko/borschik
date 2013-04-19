@@ -1,0 +1,9 @@
+.b-borschik__avatar {
+    -background: none;
+    -filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='l.png');
+}
+
+.b-borschik__avatar .with-param {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='l.png',sizingMethod=scale);
+}

@@ -1,0 +1,11 @@
+.b-borschik__file {
+    background: #eee url(l.png) no-repeat 50% 0;
+}
+
+.b-borschik__file {
+    background: #eee url(../xxl.png) no-repeat 50% 0;
+}
+
+.b-borschik__file {
+    background: #ccc url('l.png') no-repeat 0 50%;
+}
