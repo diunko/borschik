@@ -1,0 +1,11 @@
+.b-borschik__link__uri {
+    background: url(//yandex.st/prj/_/jUK5O9GsS2gPWOhRMeBxR0GThf0.png) repeat-x;
+}
+
+.b-borschik__link__double {
+    background-image: url("//yandex.st/prj/_/jUK5O9GsS2gPWOhRMeBxR0GThf0.png") repeat-y;
+}
+
+.b-borschik__link__fixed_scheme {
+    background-image: url('http://yandex.st/prj/_/jUK5O9GsS2gPWOhRMeBxR0GThf0.png') no-repeat scroll left top;
+}

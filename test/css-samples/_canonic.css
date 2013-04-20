@@ -1,0 +1,63 @@
+/* css suite strings */ /**/
+
+.b-borschik
+{
+    text-align: center;
+}
+
+/* print.css begin */
+/* page break */
+#comments {page-break-before: always;}
+
+/* print.css end */
+print;
+/* css/urls.css begin */
+.b-borschik__link__uri {
+    background: url(//yandex.st/prj/_/jUK5O9GsS2gPWOhRMeBxR0GThf0.png) repeat-x;
+}
+
+.b-borschik__link__double {
+    background-image: url("//yandex.st/prj/_/jUK5O9GsS2gPWOhRMeBxR0GThf0.png") repeat-y;
+}
+
+.b-borschik__link__fixed_scheme {
+    background-image: url('http://yandex.st/prj/_/jUK5O9GsS2gPWOhRMeBxR0GThf0.png') no-repeat scroll left top;
+}
+
+/* css/urls.css end */
+
+/* css/files.css begin */
+.b-borschik__file {
+    background: #eee url("css/l.png") no-repeat 50% 0;
+}
+
+.b-borschik__file {
+    background: #eee url("xxl.png") no-repeat 50% 0;
+}
+
+.b-borschik__file {
+    background: #ccc url("css/l.png") no-repeat 0 50%;
+}
+
+/* css/files.css end */
+
+/* css/filters.css begin */
+.b-borschik__avatar {
+    -background: none;
+    -filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="css/l.png");
+}
+
+.b-borschik__avatar .with-param {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="css/l.png",sizingMethod=scale);
+}
+
+/* css/filters.css end */
+
+
+.b-borschik__i
+{
+    vertical-align: middle;
+
+    border: 0;
+}

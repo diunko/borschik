@@ -1,0 +1,18 @@
+/* css suite strings */ /**/
+
+.b-borschik
+{
+    text-align: center;
+}
+
+@import 'print.css' print;
+@import url('css/urls.css');
+@import url('css/files.css');
+@import url('css/filters.css');
+
+.b-borschik__i
+{
+    vertical-align: middle;
+
+    border: 0;
+}
