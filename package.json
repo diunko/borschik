@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "istanbul": "~0.1.22",
-    "mocha-as-promised": "*",
+    "mocha-as-promised": "~1.2.0",
     "mocha-istanbul": "*",
     "mocha": "~1.7.0"
   },
