@@ -71,7 +71,7 @@ Base.item("frozen","link",{
 })
 
 
-Base.item("include","point",{
+Base.item("include","link",{
   child:function(type,path){
     var c = this.tech.createItem(type,path)
     //do something with cache
@@ -94,7 +94,6 @@ Base.item("include","point",{
 
 
 var Css = Tech("css","base",{
-  
 })
 
 Css.item("linkUrl","base.frozen",{
@@ -182,6 +181,10 @@ Css.item("include","base.include",{
   
   processPath:function(path){
     return path.replace(/^(.*?)(\?|$)/,"$1")
+  },
+  
+  minimize:function(content){
+    //csso
   }
 })
 
