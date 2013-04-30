@@ -23,7 +23,7 @@ Base.item("point",{
   absPathTo:function(path){
     // prepend {this.path} to {path}, if {path} is not already absolute
     // (thiS.path)  (path)    (this.path/path)
-    //  /a/b/c/A + d/e/f/B => /a/b/c/d
+    //  /a/b/c/A + d/e/f/B => /a/b/c/d/e/f/B
     //  /a/b/c/A + /d/e/f/B => /d/e/f/B
     return U.pathToUnix(
       PATH.resolve(PATH.dirname(this.path),path))},
