@@ -24,6 +24,10 @@ var srcStringRx = new RegExp('^' + srcRe + '$');
 
 
 Css.item("include", "base.include", {
+  __constructor: function() {
+    // read file
+  }
+
   parse: function(content) {
     var m, found = [];
 
